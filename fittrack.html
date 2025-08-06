@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FitTrack Pro - Advanced Fitness Tracking</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-activity"></i> FitTrack Pro
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#app">App</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#pricing" class="btn btn-primary ms-lg-3">Get Started</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="animate__animated animate__fadeInDown">Transform Your Fitness Journey</h1>
+        <p class="animate__animated animate__fadeIn animate__delay-1s">FitTrack Pro combines advanced tracking with personalized insights to help you achieve your health goals faster than ever before.</p>
+        <div class="hero-btns animate__animated animate__fadeIn animate__delay-2s">
+          <a href="#pricing" class="btn btn-primary">
+            <i class="bi bi-apple me-2"></i> Download Now
+          </a>
+          <a href="#features" class="btn btn-outline-light">
+            <i class="bi bi-play-circle me-2"></i> Watch Demo
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+        <img src="https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="FitTrack Pro App" class="hero-image img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title animate-on-scroll">Powerful Features</h2>
+      <p class="section-subtitle animate-on-scroll">Discover what makes FitTrack Pro the most advanced fitness tracking app</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 animate-on-scroll">
+        <div class="feature-card card">
+          <div class="feature-icon">
+            <i class="bi bi-heart-pulse"></i>
+          </div>
+          <div class="card-body text-center">
+            <h3>Heart Rate Monitoring</h3>
+            <p>Track your heart rate in real-time with our advanced sensors and get personalized health insights.</p>
+            <a href="#" class="feature-link">
+              Learn more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.2s;">
+        <div class="feature-card card">
+          <div class="feature-icon">
+            <i class="bi bi-graph-up"></i>
+          </div>
+          <div class="card-body text-center">
+            <h3>Advanced Analytics</h3>
+            <p>Visualize your progress with detailed charts and get actionable recommendations to improve.</p>
+            <a href="#" class="feature-link">
+              Learn more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.4s;">
+        <div class="feature-card card">
+          <div class="feature-icon">
+            <i class="bi bi-moon-stars"></i>
+          </div>
+          <div class="card-body text-center">
+            <h3>Sleep Tracking</h3>
+            <p>Monitor your sleep patterns and get personalized tips to improve your sleep quality.</p>
+            <a href="#" class="feature-link">
+              Learn more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-4 animate-on-scroll">
+        <div class="feature-card card">
+          <div class="feature-icon">
+            <i class="bi bi-nutrition"></i>
+          </div>
+          <div class="card-body text-center">
+            <h3>Nutrition Tracking</h3>
+            <p>Log your meals, track macros, and get personalized nutrition recommendations.</p>
+            <a href="#" class="feature-link">
+              Learn more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.2s;">
+        <div class="feature-card card">
+          <div class="feature-icon">
+            <i class="bi bi-activity"></i>
+          </div>
+          <div class="card-body text-center">
+            <h3>Workout Plans</h3>
+            <p>Access hundreds of professional workout plans tailored to your fitness level.</p>
+            <a href="#" class="feature-link">
+              Learn more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.4s;">
+        <div class="feature-card card">
+          <div class="feature-icon">
+            <i class="bi bi-people"></i>
+          </div>
+          <div class="card-body text-center">
+            <h3>Community Support</h3>
+            <p>Connect with other users, share progress, and get motivation from our fitness community.</p>
+            <a href="#" class="feature-link">
+              Learn more <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- App Showcase Section -->
+<section class="app-showcase" id="app">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="showcase-content">
+          <h2 class="animate-on-scroll">Your Personal Fitness Companion</h2>
+          <p class="animate-on-scroll">FitTrack Pro adapts to your lifestyle and fitness level, providing personalized recommendations and tracking all your health metrics in one place.</p>
+          
+          <ul class="feature-list animate-on-scroll">
+            <li>
+              <i class="bi bi-check-circle-fill"></i>
+              <div>
+                <h5>Real-time Tracking</h5>
+                <p>Monitor your workouts, heart rate, and calories burned in real-time.</p>
+              </div>
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill"></i>
+              <div>
+                <h5>Smart Notifications</h5>
+                <p>Get reminders to move, hydrate, and stay active throughout the day.</p>
+              </div>
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill"></i>
+              <div>
+                <h5>Seamless Sync</h5>
+                <p>Works with all major fitness devices and platforms.</p>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="animate-on-scroll">
+            <a href="#pricing" class="btn btn-primary me-2">Get Started</a>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="FitTrack Pro App Screens" class="img-fluid app-screenshot animate-on-scroll">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">500K+</div>
+          <div class="stat-label">Active Users</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="stat-item animate-on-scroll" style="transition-delay: 0.1s;">
+          <div class="stat-number">1M+</div>
+          <div class="stat-label">Workouts Completed</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="stat-item animate-on-scroll" style="transition-delay: 0.2s;">
+          <div class="stat-number">4.9</div>
+          <div class="stat-label">App Rating</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="stat-item animate-on-scroll" style="transition-delay: 0.3s;">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Support</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title animate-on-scroll">What Our Users Say</h2>
+      <p class="section-subtitle animate-on-scroll">Join thousands of satisfied users who transformed their fitness with FitTrack Pro</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-4 animate-on-scroll">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"I've tried many fitness apps but FitTrack Pro is by far the best. The personalized recommendations helped me lose 15kg in just 3 months!"</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J" class="author-img">
+            <div class="author-info">
+              <h5>Sarah Johnson</h5>
+              <p>Yoga Instructor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.1s;">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The sleep tracking feature changed my life. I finally understand my sleep patterns and improved my energy levels dramatically."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael T" class="author-img">
+            <div class="author-info">
+              <h5>Michael Thompson</h5>
+              <p>Software Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.2s;">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"As a personal trainer, I recommend FitTrack Pro to all my clients. The analytics are unmatched and the interface is so intuitive."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya K" class="author-img">
+            <div class="author-info">
+              <h5>Priya Kapoor</h5>
+              <p>Personal Trainer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title animate-on-scroll">Simple, Transparent Pricing</h2>
+      <p class="section-subtitle animate-on-scroll">Choose the plan that fits your needs</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-4 animate-on-scroll">
+        <div class="pricing-card">
+          <h3 class="pricing-title">Basic</h3>
+          <div class="pricing-price">₹199.99 <span>/ month</span></div>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check"></i> Basic Activity Tracking</li>
+            <li><i class="bi bi-check"></i> 5 Workout Plans</li>
+            <li><i class="bi bi-check"></i> Calorie Tracking</li>
+            <li><i class="bi bi-x"></i> Advanced Analytics</li>
+            <li><i class="bi bi-x"></i> Personalized Coaching</li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary w-100">Get Started</a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.1s;">
+        <div class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <h3 class="pricing-title">Pro</h3>
+          <div class="pricing-price">₹399.99 <span>/ month</span></div>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check"></i> All Basic Features</li>
+            <li><i class="bi bi-check"></i> Unlimited Workout Plans</li>
+            <li><i class="bi bi-check"></i> Advanced Analytics</li>
+            <li><i class="bi bi-check"></i> Sleep Tracking</li>
+            <li><i class="bi bi-x"></i> Personalized Coaching</li>
+          </ul>
+          <a href="#" class="btn btn-primary w-100">Get Started</a>
+        </div>
+      </div>
+      
+      <div class="col-md-4 animate-on-scroll" style="transition-delay: 0.2s;">
+        <div class="pricing-card">
+          <h3 class="pricing-title">Premium</h3>
+          <div class="pricing-price">₹799.99 <span>/ month</span></div>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check"></i> All Pro Features</li>
+            <li><i class="bi bi-check"></i> 1-on-1 Coaching</li>
+            <li><i class="bi bi-check"></i> Nutrition Plans</li>
+            <li><i class="bi bi-check"></i> Priority Support</li>
+            <li><i class="bi bi-check"></i> Custom Workouts</li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary w-100">Get Started</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-5 animate-on-scroll">
+      <p>Need help choosing? <a href="#contact" class="text-primary">Contact our team</a> for personalized recommendations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+  <div class="container">
+    <h2 class="animate-on-scroll">Ready to Transform Your Fitness?</h2>
+    <p class="animate-on-scroll">Download FitTrack Pro today and start your journey to a healthier, happier you.</p>
+    <div class="animate-on-scroll">
+      <a href="#" class="btn btn-primary btn-lg me-3">
+        <i class="bi bi-apple me-2"></i> App Store
+      </a>
+      <a href="#" class="btn btn-light btn-lg">
+        <i class="bi bi-google-play me-2"></i> Google Play
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <a href="#" class="footer-logo">
+          <i class="bi bi-activity me-2"></i> FitTrack Pro
+        </a>
+        <p class="footer-about">FitTrack Pro is the most advanced fitness tracking app, helping thousands of users achieve their health and fitness goals since 2020.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-12">
+        <div class="footer-links">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><i class="bi bi-envelope me-2"></i> hello@fittrackpro.com</li>
+            <li><i class="bi bi-telephone me-2"></i> +1 (555) 123-4567</li>
+            <li><i class="bi bi-geo-alt me-2"></i> 123 Fitness St, Health City, HC 12345</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 FitTrack Pro. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#" class="btn btn-primary btn-lg back-to-top" id="backToTop">
+  <i class="bi bi-arrow-up"></i>
+</a>
+<script src="script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
